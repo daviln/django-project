@@ -5,9 +5,6 @@
 
  After cloning the repository, open a new terminal
 
- Create a virtual environment to isolate the project dependencies:
- `python -m venv venv`
-
   Activate the virtual environment:
 
   Mac/Linux:
