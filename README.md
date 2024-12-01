@@ -13,6 +13,9 @@
   Windows:
   `venv\Scripts\activate`
 
+  Make sure you have de Django framework installed in your terminal. If not, run inside the virtual environment:
+  `pip install django`
+
   Run on the terminal:
   `cd myproject`
 
