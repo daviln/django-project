@@ -7,7 +7,7 @@ from .forms import BookForm
 
 def book_list(request):
     books = Book.objects.all()
-    return render(request, 'books/book_list.html', {'books': books})
+    return render(request, 'book_pages/book_list.html', {'books': books})
 
 def home(request):
     return render(request, 'home.html') 
@@ -21,7 +21,7 @@ def add_book(request):
     else:
         form = BookForm()
 
-    return render(request, 'books/add_book.html', {'form': form})
+    return render(request, 'book_pages/add_book.html', {'form': form})
 
 def remove_book(request, book_id):
     if request.method == 'POST':
